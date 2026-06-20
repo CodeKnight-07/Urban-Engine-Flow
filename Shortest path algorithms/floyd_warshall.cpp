@@ -47,6 +47,7 @@ public:
                 else cout<<dist[i][j];
                 cout<<"\n";
             }
+            cout<<"\n";
         }
     }
 };
