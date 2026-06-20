@@ -61,7 +61,7 @@ int main(){
     for(int i = 1; i <= nodes; i++) {
         cout<<source<<" -> "<<i<<" = ";
         if(dist[i]==INT_MAX)
-            cout<<"INF";
+            cout<<"INFINITY";
         else
             cout<<dist[i];
         cout<<"\n";
