@@ -67,21 +67,6 @@ C:\Urban-Engine-Flow
 
 ---
 
-## Compilation and Execution
-
-All source files are written in standard C++. You can compile them using any modern C++ compiler (such as `g++` or `clang++`).
-
-### Compiling and Running a File
-To compile a C++ file, run the following command in your terminal:
-
-```bash
-# Example for Dijkstra
-g++ -std=c++17 "Shortest path algorithms/dijkstra.cpp" -o dijkstra
-
-# Run the executable
-./dijkstra
-```
-
 ---
 
 ## Input / Output Format
