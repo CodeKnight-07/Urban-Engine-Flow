@@ -4,7 +4,7 @@ This project features implementations of core graph algorithms. This repository 
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 The project is structured into two main directories based on algorithm categories:
 
@@ -27,7 +27,7 @@ C:\Urban-Engine-Flow
 
 ---
 
-## 🚀 Algorithms Overview
+## Algorithms Overview
 
 ### 1. Graph Traversal Algorithms
 
@@ -67,7 +67,7 @@ C:\Urban-Engine-Flow
 
 ---
 
-## 🛠️ Compilation and Execution
+## Compilation and Execution
 
 All source files are written in standard C++. You can compile them using any modern C++ compiler (such as `g++` or `clang++`).
 
@@ -84,7 +84,7 @@ g++ -std=c++17 "Shortest path algorithms/dijkstra.cpp" -o dijkstra
 
 ---
 
-## 📥 Input / Output Format
+## Input / Output Format
 
 All programs read from standard input (`stdin`) and write to standard output (`stdout`).
 
@@ -122,7 +122,7 @@ All programs read from standard input (`stdin`) and write to standard output (`s
 
 ---
 
-## 📊 Visualizations and Outputs
+## Visualizations and Outputs
 
 Sample outputs and graph topologies used in testing are captured in visual formats:
 
