@@ -1,6 +1,6 @@
 # Urban Engine Flow
 
-This project features implementations of core graph algorithms. This repository contains optimized implementations of fundamental graph traversal and shortest path algorithms, along with sample outputs and visualizations.
+This project features implementations of core graph algorithms. This repository contains optimized implementations of fundamental graph traversal and shortest path algorithms, along with sample outputs.
 
 ---
 
