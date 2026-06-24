@@ -1,6 +1,6 @@
 # Urban Engine Flow
 
-Welcome to **Urban Engine Flow**, a high-performance C++ codebase featuring implementations of core graph algorithms. This repository contains optimized implementations of fundamental graph traversal and shortest path algorithms, along with sample outputs and visualizations.
+This project features implementations of core graph algorithms. This repository contains optimized implementations of fundamental graph traversal and shortest path algorithms, along with sample outputs and visualizations.
 
 ---
 
