@@ -67,7 +67,6 @@ C:\Urban-Engine-Flow
 
 ---
 
----
 
 ## Input / Output Format
 
@@ -105,20 +104,4 @@ All programs read from standard input (`stdin`) and write to standard output (`s
    1 -> 5 = 5
    ```
 
----
-
-## Visualizations and Outputs
-
-Sample outputs and graph topologies used in testing are captured in visual formats:
-
-| Category | File / Visualization Link | Description |
-|---|---|---|
-| **Graph Traversal** | [Sample Graph](Graph%20traversal%20algorithms/Sample%20graph%20for%20traversal.png) | Visual representation of the topology used for BFS/DFS. |
-| **Graph Traversal** | [BFS Traversal Output](Graph%20traversal%20algorithms/BFS%20Sample%20output.png) | Step-by-step console execution log for BFS. |
-| **Graph Traversal** | [DFS Traversal Output](Graph%20traversal%20algorithms/DFS%20sample%20output.png) | Step-by-step console execution log for DFS. |
-| **Shortest Path** | [Dijkstra Path Output](Shortest%20path%20algorithms/Dijkstra%20sample%20output.png) | Shortest distance results using Dijkstra's Algorithm. |
-| **Shortest Path** | [Bellman Ford Output](Shortest%20path%20algorithms/Bellman%20Ford%20sample%20output.png) | Shortest distance results using Bellman-Ford. |
-| **Shortest Path** | [Floyd Warshall Output](Shortest%20path%20algorithms/Floyd%20Warshall%20sample%20output.png) | Matrix output showing All-Pairs Shortest Paths. |
-
----
 
