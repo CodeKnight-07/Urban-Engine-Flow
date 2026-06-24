@@ -22,7 +22,10 @@ C:\Urban-Engine-Flow
     ├── Dijkstra sample output.png
     ├── dijkstra.cpp                  # Dijkstra's (min-priority queue optimized)
     ├── Floyd Warshall sample output.png
-    └── floyd_warshall.cpp            # Floyd-Warshall (all-pairs shortest path)
+    ├── floyd_warshall.cpp            # Floyd-Warshall (all-pairs shortest path)
+    ├── Sample graph for Bellman Ford.png # Generated topology diagram
+    ├── Sample graph for Dijkstra.png     # Generated topology diagram
+    └── Sample graph for Floyd Warshall.png # Generated topology diagram
 ```
 
 ---
@@ -64,44 +67,4 @@ C:\Urban-Engine-Flow
 - **Description**: A dynamic programming algorithm to find shortest paths between all pairs of vertices in a weighted graph. It also handles negative edge weights and detects negative cycles (indicated by negative values on the main diagonal of the distance matrix).
 - **Time Complexity**: $\mathcal{O}(V^3)$.
 - **Space Complexity**: $\mathcal{O}(V^2)$ matrix storage.
-
----
-
-
-## Input / Output Format
-
-All programs read from standard input (`stdin`) and write to standard output (`stdout`).
-
-### Example: Running Dijkstra's Algorithm
-1. **Input Requirements**:
-   - Number of nodes.
-   - Graph type: `1` for Directed, `2` for Undirected.
-   - Number of edges.
-   - For each edge: source node, destination node, and weight.
-   - Source node.
-
-2. **Sample Input**:
-   ```text
-   5
-   1
-   6
-   1 2 4
-   1 3 2
-   2 3 3
-   2 4 2
-   3 5 3
-   4 5 1
-   1
-   ```
-
-3. **Sample Output**:
-   ```text
-   Shortest distances:
-   1 -> 1 = 0
-   1 -> 2 = 4
-   1 -> 3 = 2
-   1 -> 4 = 6
-   1 -> 5 = 5
-   ```
-
 
