@@ -23,9 +23,9 @@ C:\Urban-Engine-Flow
     ├── dijkstra.cpp                  # Dijkstra's (min-priority queue optimized)
     ├── Floyd Warshall sample output.png
     ├── floyd_warshall.cpp            # Floyd-Warshall (all-pairs shortest path)
-    ├── Sample graph for Bellman Ford.png # Generated topology diagram
-    ├── Sample graph for Dijkstra.png     # Generated topology diagram
-    └── Sample graph for Floyd Warshall.png # Generated topology diagram
+    ├── Sample graph for Bellman Ford.png # Graph topology diagram
+    ├── Sample graph for Dijkstra.png     # Graph topology diagram
+    └── Sample graph for Floyd Warshall.png # Graph topology diagram
 ```
 
 ---
