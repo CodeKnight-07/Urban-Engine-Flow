@@ -16,6 +16,10 @@ C:\Urban-Engine-Flow
 │   ├── DFS sample output.png
 │   ├── dfs.cpp                       # Depth-First Search implementation
 │   └── Sample graph for traversal.png # Graph topology used for tests
+├── Network flow/
+│   ├── Ford Fulkerson sample output.png # Sample execution console output
+│   ├── ford_fulkerson.cpp            # Ford-Fulkerson maximum flow implementation
+│   └── Sample graph for Ford Fulkerson.png # Flow network topology diagram
 └── Shortest path algorithms/
     ├── Bellman Ford sample output.png
     ├── bellman_ford.cpp              # Bellman-Ford (supports negative weights)
@@ -67,4 +71,14 @@ C:\Urban-Engine-Flow
 - **Description**: A dynamic programming algorithm to find shortest paths between all pairs of vertices in a weighted graph. It also handles negative edge weights and detects negative cycles (indicated by negative values on the main diagonal of the distance matrix).
 - **Time Complexity**: $\mathcal{O}(V^3)$.
 - **Space Complexity**: $\mathcal{O}(V^2)$ matrix storage.
+
+---
+
+### 3. Network Flow Algorithms
+
+#### 🔹 Ford-Fulkerson Algorithm
+- **File**: `Network flow/ford_fulkerson.cpp`
+- **Description**: Computes the maximum flow in a flow network from a single source to a single sink. It uses Depth-First Search (DFS) to find augmenting paths in the residual graph.
+- **Time Complexity**: $\mathcal{O}(E \times f)$ where $E$ is the number of edges and $f$ is the maximum flow of the network.
+- **Space Complexity**: $\mathcal{O}(V^2)$ to store capacity and flow matrices.
 
