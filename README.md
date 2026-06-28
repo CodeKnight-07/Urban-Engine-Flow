@@ -15,12 +15,12 @@ C:\Urban-Engine-Flow
 │   ├── bfs.cpp                       # Breadth-First Search implementation
 │   ├── DFS sample output.png
 │   ├── dfs.cpp                       # Depth-First Search implementation
-│   └── Sample graph for traversal.png # Graph topology used for tests
+│   └── Sample graph for traversal.png # Graph topology diagram used for tests
 ├── Network flow/
 <<<<<<< HEAD
-│   ├── Edmonds Karp sample output.png # Sample execution console output
+│   ├── Edmonds Karp sample output.png 
 │   ├── edmonds_karp.cpp              # Edmonds-Karp maximum flow implementation
-│   ├── Ford Fulkerson sample output.png # Sample execution console output
+│   ├── Ford Fulkerson sample output.png
 =======
 │   ├── Ford Fulkerson sample output.png
 >>>>>>> 0dbf1cf92cb8a282194619cca8889fb2eabdd47b
