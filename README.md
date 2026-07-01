@@ -17,9 +17,13 @@ C:\Urban-Engine-Flow
 │   ├── dfs.cpp                       # Depth-First Search implementation
 │   └── Sample graph for traversal.png # Graph topology diagram used for tests
 ├── Network flow/
-│   ├── Edmonds Karp sample output.png 
-│   ├── Ford Fulkerson sample output.png 
-│   ├── Sample graph for Network flow.png # Flow network topology diagram
+│   ├── Dinic sample output.png
+│   ├── Edmonds Karp sample output.png
+│   ├── Ford Fulkerson sample output.png
+│   ├── Sample graph for Dinic.png    # Flow network topology diagram
+│   ├── Sample graph for Edmonds Karp.png # Flow network topology diagram
+│   ├── Sample graph for Ford Fulkerson.png # Flow network topology diagram
+│   ├── dinic.cpp                     # Dinic's maximum flow implementation
 │   ├── edmonds_karp.cpp              # Edmonds-Karp maximum flow implementation
 │   └── ford_fulkerson.cpp            # Ford-Fulkerson maximum flow implementation
 └── Shortest path algorithms/
@@ -89,4 +93,10 @@ C:\Urban-Engine-Flow
 - **Description**: Computes the maximum flow in a flow network from a single source to a single sink. It is a variation of the Ford-Fulkerson method that uses Breadth-First Search (BFS) to find augmenting paths (shortest path in terms of the number of edges).
 - **Time Complexity**: $\mathcal{O}(V \times E^2)$ where $V$ is the number of vertices and $E$ is the number of edges.
 - **Space Complexity**: $\mathcal{O}(V^2)$ to store capacity and flow matrices.
+
+#### 🔹 Dinic's Algorithm
+- **File**: `Network flow/dinic.cpp`
+- **Description**: Computes the maximum flow in a flow network using level graphs and blocking flows. It uses Breadth-First Search (BFS) to construct a level graph and Depth-First Search (DFS) with a pointer optimization (pruning) to find blocking flows.
+- **Time Complexity**: $\mathcal{O}(V^2 \times E)$ where $V$ is the number of vertices and $E$ is the number of edges.
+- **Space Complexity**: $\mathcal{O}(V^2)$ to store capacity, flow, and level structures.
 
